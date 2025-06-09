@@ -31,3 +31,4 @@ async def index(request: Request):
 # pip install fastapi uvicorn jinja2
 # uvicorn app:app --host 0.0.0.0 --port 8000
 # https://fiszkipythonfastapi.onrender.com/?
+# http://frog02.mikr.us:42324/?
