@@ -1,0 +1,352 @@
+Co to jest zmienna w Pythonie?
+Zmienna to miejsce w pamięci komputera, gdzie przechowywana jest wartość. W Pythonie zmienna przypisywana jest do nazwy za pomocą operatora `=`.
+Co to jest mutowalność w Pythonie?
+Mutowalność oznacza zdolność do zmiany obiektu po jego utworzeniu. Obiekty niemutowalne nie mogą być zmieniane po utworzeniu, natomiast obiekty mutowalne mogą.
+Czym różni się lista od krotki?
+Lista jest mutowalna i może być modyfikowana po utworzeniu, natomiast krotka jest niemutowalna i nie można jej modyfikować po utworzeniu.
+Czym są moduły w Pythonie?
+Moduły to pliki zawierające zestaw funkcji, zmiennych i klas w Pythonie, które mogą być importowane do innych programów.
+Co to jest rekurencja?
+Rekurencja to technika programowania, w której funkcja wywołuje samą siebie.
+Jakie są podstawowe typy danych w Pythonie?
+Podstawowe typy danych to int (liczby całkowite), float (liczby zmiennoprzecinkowe), str (ciągi znaków), bool (wartości logiczne), list (listy), tuple (krotki), set (zbiory) i dict (słowniki).
+Co to jest PEP 8?
+PEP 8 to zestaw konwencji stylu kodowania w Pythonie, który opisuje zalecane formatowanie kodu.
+Co to jest dziedziczenie?
+Dziedziczenie to mechanizm OOP, który pozwala na tworzenie nowej klasy na bazie istniejącej klasy.
+Co to jest polimorfizm?
+Polimorfizm to zdolność do przyjmowania wielu form. W kontekście OOP, oznacza to, że jedna klasa może dziedziczyć formę lub metody innej klasy.
+Co to jest „self” w Pythonie?
+`self` to odwołanie do aktualnego obiektu instancji klasy i jest używane do dostępu do zmiennych instancji i metod.
+Co to jest lambda w Pythonie?
+Lambda to anonimowa funkcja, którą można zdefiniować w jednej linii kodu. Jest używana głównie dla prostych operacji.
+Jakie są metody dostępu do danych w słowniku?
+Można uzyskać dostęp do danych w słowniku za pomocą kluczy, metod get(), items(), keys() i values().
+Co to jest GIL?
+GIL (Global Interpreter Lock) to mechanizm, który zapobiega równoczesnemu wykonywaniu wielu wątków w jednym procesie interpretera Pythona.
+Czym są wyjątki w Pythonie?
+Wyjątki to błędy w czasie wykonania, które można przechwytywać i obsługiwać w kodzie za pomocą bloków try/except.
+Co to jest list comprehension?
+List comprehension to składnia w Pythonie, umożliwiająca tworzenie list w jednej linii kodu.
+Czym jest slicing?
+Slicing to technika ekstrakcji fragmentu sekwencji, takiej jak lista lub ciąg znaków, używając indeksów.
+Czym jest docstring?
+Docstring to łańcuch znaków, który jest używany do dokumentowania modułów, klas, funkcji i metod w Pythonie.
+Co to jest interpreter Pythona?
+Interpreter Pythona to program, który czyta i wykonuje kod Pythona, tłumacząc go na język maszynowy.
+Czym jest Python shell?
+Python shell to narzędzie umożliwiające interaktywne programowanie i testowanie kodu Pythona.
+Co to jest garbage collection w Pythonie?
+Garbage collection to proces automatycznego zwalniania pamięci zajmowanej przez nieużywane obiekty.
+Co to jest „tuple unpacking”?
+„Tuple unpacking” pozwala na przypisanie wartości z krotki do zmiennych w jednej linii, np. `x, y = (1, 2)`.
+Co to jest dict comprehension?
+Dict comprehension to składnia, która umożliwia tworzenie słowników w jednej linii kodu, podobnie jak list comprehension, ale z użyciem kluczy i wartości.
+Co to jest „shallow copy”?
+„Shallow copy” tworzy nowy obiekt, ale nie kopiuje obiektów, na które wskazują referencje. Używana jest metoda `copy()`.
+A co to jest „deep copy”?
+„Deep copy” tworzy nowy obiekt i rekurencyjnie kopiuje wszystkie obiekty, na które wskazują referencje. Używana jest metoda `deepcopy()` z modułu `copy`.
+Co to jest metoda `__init__` w klasie?
+Metoda `__init__` to konstruktor klasy, który jest wywoływany automatycznie, gdy tworzony jest nowy obiekt tej klasy.
+Czym są dekoratory w Pythonie?
+Dekoratory to funkcje wyższego rzędu, które pozwalają na modyfikowanie lub rozszerzanie funkcji lub metod, bez konieczności ich modyfikacji.
+Co to jest „scope” w Pythonie?
+„Scope” to obszar kodu, w którym zmienna jest widoczna i dostępna.
+Co to są „magic methods” (metody magiczne) w Pythonie?
+„Magic methods” to specjalne metody, które mają podwójne podkreślenia na początku i końcu ich nazw, np. `__init__`, i są używane do implementacji pewnych operacji w klasach.
+Czym jest „list slicing”?
+„List slicing” to technika ekstrakcji fragmentu listy używając indeksów.
+Co to jest „name mangling” w Pythonie?
+„Name mangling” to mechanizm zmiany nazwy atrybutów klasy, które są zdefiniowane jako prywatne, co ma na celu uniknięcie konfliktów nazw w klasach pochodnych.
+Co to jest „iteration” w Pythonie?
+„Iteration” to proces przechodzenia przez elementy obiektu iterowalnego, takiego jak lista lub krotka.
+Czym są „comprehensions” w Pythonie?
+„Comprehensions” to składnie, które umożliwiają tworzenie nowych sekwencji (list, słowników, zbiorów) w bardziej zwięzły i czytelny sposób.
+Co to jest „generator” w Pythonie?
+„Generator” to specjalny typ iteratora, który pozwala na generowanie wartości na bieżąco, co może prowadzić do oszczędności pamięci.
+Co to jest „exception handling” w Pythonie?
+„Exception handling” to mechanizm pozwalający na obsługę błędów w czasie wykonania programu, umożliwiający kontynuowanie działania programu po wystąpieniu błędu.
+Czym jest „duck typing” w Pythonie?
+„Duck typing” to koncepcja dynamicznego typowania, gdzie typ obiektu określany jest przez jego zachowanie (metody i atrybuty), a nie przez jego klasę lub typ obiektu.
+Co to jest „type hinting” w Pythonie?
+„Type hinting” to technika, która pozwala programiście na podawanie oczekiwanych typów zmiennych, argumentów funkcji i wartości zwracanych.
+Co to jest „conditional expression” w Pythonie?
+„Conditional expression” (zwane również „ternary operator”) to składnia, która pozwala na przypisanie wartości zmiennej w zależności od warunku, np. `x = a if condition else b`.
+Czym jest „import” w Pythonie?
+„Import” to słowo kluczowe używane do załączania modułów, klas, funkcji i zmiennych z innych plików lub modułów.
+Co to jest „package” w Pythonie?
+„Package” to sposób organizacji powiązanych modułów Pythona w jednym katalogu.
+Co to jest „virtual environment” w Pythonie?
+„Virtual environment” to izolowane środowisko, które pozwala na instalację pakietów i zależności Pythona niezależnie od innych projektów, co zapobiega konfliktom wersji.
+Co to jest PEP 8 w Pythonie?
+PEP 8 to zestaw konwencji stylu kodowania w Pythonie, mający na celu poprawę czytelności kodu.
+Czym jest lambda function w Pythonie?
+Lambda function to anonimowa funkcja zdefiniowana przy użyciu słowa kluczowego `lambda`.
+Co to jest pickling w Pythonie?
+Pickling to proces konwersji obiektu Pythona na ciąg bajtów, a unpickling to odwrotny proces.
+Co to jest GIL (Global Interpreter Lock)?
+GIL to mechanizm, który uniemożliwia wielu wątkom natywnym jednoczesne wykonywanie kodu bajtowego Pythona.
+Co to są moduły w Pythonie?
+Moduły to pliki zawierające definicje funkcji, klasy i zmienne, które można zaimportować do innego programu.
+Co to jest zen of Python?
+Zen of Python to zbiór aforystycznych zasad dotyczących projektowania oprogramowania w języku Python, dostępny pod `import this`.
+Co to jest „mutable” object?
+Mutable object to obiekt, którego stan można zmieniać po jego utworzeniu, np. listy i słowniki.
+A co to jest „immutable” object?
+Immutable object to obiekt, którego stanu nie można zmieniać po jego utworzeniu, np. liczby, krotki i łańcuchy znaków.
+Co to jest „docstring”?
+Docstring to ciąg znaków używany do dokumentowania modułów, klas, funkcji i metod w Pythonie.
+Czym jest polymorphism w Pythonie?
+Polimorfizm to zdolność do używania wspólnego interfejsu dla różnych typów danych.
+Co to jest namespace w Pythonie?
+Namespace to przestrzeń, w której przechowywane są nazwy (identyfikatory) i odnoszące się do nich obiekty.
+Czym jest “assert” w Pythonie?
+`Assert` to słowo kluczowe używane do debugowania, które umożliwia testerowi sprawdzenie, czy określony warunek jest prawdziwy.
+Co to jest recursion w Pythonie?
+Rekurencja to technika programowania, w której funkcja wywołuje samą siebie.
+Co to jest “self” w Pythonie?
+`Self` to odwołanie do bieżącego obiektu instancji, używane w metodach obiektów.
+Co to są “built-in functions” w Pythonie?
+Built-in functions to wbudowane funkcje dostępne w Pythonie, takie jak `print()`, `len()`, `type()`.
+Czym są “decorators” w Pythonie?
+Dekoratory to funkcje, które zmieniają działanie lub dodają funkcjonalność do innych funkcji lub metod.
+Co to jest “list comprehension” w Pythonie?
+List comprehension to składnia, która pozwala tworzyć listy w jednej linii kodu.
+Co to jest “inheritance” w Pythonie?
+Dziedziczenie to mechanizm, który pozwala na dziedziczenie atrybutów i metod z jednej klasy do drugiej.
+Co to jest “slice notation” w Pythonie?
+Slice notation to składnia używana do odwoływania się do podzbiorów sekwencji takich jak listy i stringi.
+Co to jest “generator expression” w Pythonie?
+Generator expression to wyrażenie, które pozwala na tworzenie generatora w jednej linii kodu.
+Co to jest `__init__` w Pythonie?
+`__init__` to metoda specjalna używana do inicjalizowania obiektów. Jest to konstruktor klasy.
+Czym różni się `deepcopy` od `copy`?
+`deepcopy` tworzy nowy obiekt i rekurencyjnie kopiuje wszystkie obiekty odniesienia, `copy` tworzy nowy obiekt, ale kopiuje tylko referencje do obiektów zawartych w oryginale.
+Jakie są rodzaje metod w klasie?
+Instancyjne, klasowe (`@classmethod`) i statyczne (`@staticmethod`).
+Co robi dekorator `@property`?
+Umożliwia traktowanie metody klasy jako atrybutu tylko do odczytu.
+Czym jest metaprogramowanie?
+Jest to technika modyfikowania lub generowania kodu w trakcie wykonywania programu.
+Co to jest `__name__` w Pythonie?
+`__name__` to zmienna wbudowana, która przechowuje nazwę modułu. Jeśli skrypt jest wykonywany, jej wartość to `'__main__'`.
+Jak działa garbage collection w Pythonie?
+Python używa licznika referencji i cyklicznego garbage collectora do usuwania obiektów, do których nie ma referencji.
+Co to jest "Duck Typing"?
+To koncepcja typowania dynamicznego, gdzie typ obiektu jest mniej ważny niż metody i atrybuty, które posiada.
+Co robi `__call__` w klasie?
+Umożliwia traktowanie instancji klasy jako funkcji, można "wywołać" instancję klasy.
+Jakie są różnice między krotką a listą?
+Listy są mutowalne, a krotki niemutowalne. Listy mają większą ilość dostępnych metod.
+Jakie są różnice między `__str__` a `__repr__`?
+`__str__` jest używane do znajdowania "ładnej" reprezentacji stringowej obiektu, a `__repr__` do jednoznacznej.
+Jak zdefiniować klasę abstrakcyjną?
+Przy użyciu modułu `abc` i dekoratora `@abstractmethod`.
+Czym jest list comprehension?
+Jest to jednolinijkowa metoda tworzenia list, używając składni `[ . for . if .]`.
+Co to jest "context manager"?
+Jest to obiekt, który definiuje metody do uzyskania i zwolnienia zasobów, używany z instrukcją `with`.
+Jak można połączyć dwie listy?
+Za pomocą operatora `+` lub metody `extend()`.
+Czym są *args i **kwargs?
+Są to składnie dla argumentów pozycyjnych i słownikowych, używane do przekazywania zmiennej liczby argumentów do funkcji.
+Co to jest "slice"?
+Jest to obiekt, który reprezentuje zestaw indeksów określony przez `start:stop:step`.
+Co to jest decorator w Pythonie?
+Jest to funkcja wyższego rzędu, która przyjmuje i zwraca inną funkcję, umożliwiając rozszerzanie i modyfikowanie jej zachowania.
+Jak można usunąć element z listy?
+Można użyć metod `remove()`, `pop()` lub słowa kluczowego `del`.
+Co to są generatory?
+Są to iteratory, które można iterować tylko raz, używane do generowania sekwencji wartości.
+Co to jest multiple inheritance?
+Jest to mechanizm, który pozwala klasie dziedziczyć atrybuty i metody od więcej niż jednej klasy bazowej.
+Jakie są różnice między Python 2 a Python 3?
+Python 3 ma lepszą obsługę Unicode, nową składnię `print()`, dzielenie zawsze zwraca liczbę zmiennoprzecinkową i wiele innych zmian.
+Jak użyć metody `super()` w klasach?
+`Super()` jest używane do wywoływania metod w klasie nadrzędnej w klasie pochodnej.
+Jakie są różnice między metodą instancji a metodą klasową?
+Metoda instancji działa na instancji klasy i ma dostęp do obiektu, metoda klasowa działa na klasie, a nie na instancji.
+Jak działają wyjątki w Pythonie?
+Wyjątki są błędami wykrytymi podczas wykonania programu, można je przechwycić i obsłużyć przy użyciu bloku `try/except`.
+Co to jest "Pythonic way"?
+"Pythonic way" oznacza pisanie kodu zgodnie z zasadami i konwencjami języka Python, które są zazwyczaj bardziej zwięzłe i czytelne.
+Czym jest "type hinting"?
+"Type hinting" to technika annotacji kodu informacjami o typie, wprowadzona w Pythonie 3.
+Co to jest "dynamic typing"?
+"Dynamic typing" oznacza, że typy zmiennych są interpretowane w trakcie wykonywania, a nie w czasie kompilacji.
+Czym jest "first-class citizen" w kontekście funkcji w Pythonie?
+Oznacza, że funkcje mogą być przekazywane jako argumenty do innych funkcji, zwracane jako wartości i przypisywane do zmiennych.
+Co to są "magic methods"?
+"Magic methods" (metody magiczne) to specjalne metody, które mają podwójne podkreślenia na początku i na końcu nazwy, np. `__init__`, `__call__`, `__add__`.
+Co to jest "tuple unpacking"?
+"Tuple unpacking" to przypisanie wartości z krotki do zmiennej, używając składni `a, b = (1, 2)`.
+Co to jest "hashable"?
+Obiekt jest "hashable", jeśli ma stałą wartość hash podczas jego życia, co oznacza, że może być używany jako klucz w słowniku.
+Co to są "coroutines"?
+Są to funkcje specjalne, które mogą zawiesić swoje wykonywanie, aby umożliwić innym funkcjom działanie, używane z `asyncio` do programowania asynchronicznego.
+Jakie są różnice między "shallow copy" a "deep copy"?
+"Shallow copy" kopiuje obiekt i jego referencje do obiektów, a "deep copy" kopiuje obiekt i wszystkie obiekty, na które wskazują referencje.
+Czym jest "lazy evaluation"?
+"Lazy evaluation" to strategia ewaluacji, która opóźnia obliczenia do momentu, gdy są faktycznie potrzebne.
+Jak działa "method resolution order" (MRO) w Pythonie?
+"MRO" to sposób, w jaki Python znajduje metody i atrybuty dziedziczone, używając algorytmu C3 linearization.
+Czym są "f-strings"?
+"F-strings" to literały łańcuchów znaków, które umożliwiają wstawianie wyrażeń w nawiasach klamrowych, wprowadzone w Python 3.
+Co to jest "duck typing"?
+"Duck typing" to koncepcja, gdzie typ obiektu jest mniej ważny niż metody i atrybuty, które posiada, "Jeśli kwaśnie jak kaczka, to jest kaczka".
+Co to jest "conditional expression"?
+Jest to skrócony sposób zapisu wyrażenia `if-else`, znane również jako "ternary operator".
+Czym różni się "is" od "=="?
+"is" sprawdza tożsamość obiektów (czy są tym samym obiektem), a "==" sprawdza równość wartości obiektów.
+Czym jest "event loop" w programowaniu asynchronicznym?
+Jest to pętla, która nasłuchuje i reaguje na zdarzenia lub zadania w programowaniu asynchronicznym.
+Jak można zaimplementować "singleton" w Pythonie?
+Można użyć modułu jako singletona, albo zastosować wzorzec projektowy z metaklasą lub dekoratorem.
+Co to jest "descriptor" w Pythonie?
+"Descriptor" to obiekt, który definiuje, jak atrybuty są dostępne, ustawiane i usuwane.
+Co to jest "metaclass"?
+"Metaclass" to klasa klasy, definiuje, jak klasa zachowuje się jako instancja.
+Co to jest "function overloading"?
+Jest to zdolność do definiowania wielu funkcji w jednym programie z tą samą nazwą, ale z różną liczbą lub typami argumentów.
+Jakie są różnice między "threading" a "multiprocessing"?
+"Threading" używa wątków, które dzielą pamięć, "multiprocessing" używa procesów, które mają własną pamięć.
+Jak obsługiwać błędy i wyjątki w Pythonie?
+Używając bloków `try`/`except`, opcjonalnie `finally` lub `else`.
+Co to jest "namespacing"?
+Jest to alokacja miejsca na przechowywanie zmiennych, funkcji, klas itd. dla uniknięcia konfliktów nazw.
+Co to jest "scope" w Pythonie?
+"Scope" to obszar programu, w którym zmienna jest widoczna i dostępna.
+Co to jest "lambda function"?
+Jest to mała, anonimowa funkcja zdefiniowana słowem kluczowym `lambda`.
+Jakie są różnice między "deep copy" a "shallow copy" w Pythonie?
+"Deep copy" tworzy kopię obiektu oraz kopie wszystkich obiektów zawartych wewnątrz, natomiast "shallow copy" kopiuje tylko sam obiekt, a nie jego zawartość.
+Czym jest GIL (Global Interpreter Lock) w Pythonie?
+GIL to mechanizm, który uniemożliwia wielu wątkom natywnym wykonanie kodu bajtowego Pythona jednocześnie w jednym procesie.
+Czym są metaklasy w Pythonie i do czego są używane?
+Metaklasy to "klasy klas", które pozwalają na modyfikowanie klas w czasie ich tworzenia. Są one używane do tworzenia specyficznych dla aplikacji lub frameworka API klas.
+Jak działa garbage collector w Pythonie?
+Python używa mechanizmu liczenia referencji oraz garbage collection do wykrywania i zbierania cykli referencji, które nie mogą być zidentyfikowane przez samą liczbę referencji.
+W jaki sposób Python obsługuje wielodziedziczenie?
+Python obsługuje wielodziedziczenie przez określony porządek rozwiązywania metod (MRO - Method Resolution Order), który określa kolejność, w jakiej klasy bazowe są przeszukiwane podczas wywoływania metody.
+Jak Python implementuje enkapsulację i jak można ją obejść?
+Python implementuje enkapsulację za pomocą konwencji nazewniczych (_nazwa) oraz przez mechanizm name mangling (__nazwa). Można ją obejść, odwołując się bezpośrednio do atrybutów.(niekoniecznie)
+Czym jest Python Decorator i jakie są jego zastosowania?
+Dekorator to funkcja wyższego rzędu, która pozwala na dodawanie funkcji lub metod. Zastosowania to między innymi logowanie, mierzenie czasu wykonania, memoizacja.
+Co to jest "list comprehension" i jakie są jego zalety i wady?
+"List comprehension" to składnia, która pozwala tworzyć listy w bardziej zwięzły i czytelny sposób. Zalety to zwięzłość i wydajność, wady to czasami mniejsza czytelność dla skomplikowanych przypadków.
+Jakie są różnice między procesami a wątkami w Pythonie?
+Procesy mają własną przestrzeń pamięci, są izolowane, używane w multiprocessing. Wątki dzielą przestrzeń pamięci, są lekkie, używane w multithreading.
+Co to jest "context manager" w Pythonie i jak utworzyć własny?
+"Context manager" zarządza zasobami, np. plikami, połączeniami. Można utworzyć własny definiując klasę z metodami `__enter__` i `__exit__` lub używając dekoratora `contextlib.contextmanager`.
+Co to jest "monkey patching" i dlaczego jest uważane za złą praktykę?
+"Monkey patching" to dynamiczna modyfikacja klas lub modułów w czasie wykonywania. Jest uważane za złą praktykę ze względu na trudności w utrzymaniu i debugowaniu kodu.
+Jak można osiągnąć współbieżność w Pythonie?
+Współbieżność można osiągnąć używając modułów takich jak `threading`, `multiprocessing`, `asyncio` oraz różnych bibliotek takich jak `concurrent.futures`.
+Co to jest "event loop" w asynchronicznym Pythonie?
+"Event loop" w asynchronicznym Pythonie jest pętlą, która cyklicznie sprawdza, czy są jakieś zdarzenia do obsłużenia, takie jak I/O, zdarzenia od użytkownika itd.
+Jak działają "generators" w Pythonie?
+Generatory to specjalne rodzaje iteratorów, które pozwalają na oszczędzanie pamięci, generując wartości "on the fly" zamiast przechowywania ich w pamięci.
+Czym jest "duck typing" w Pythonie?
+"Duck typing" to technika typowania dynamicznego, gdzie typ obiektu określany jest przez jego zachowanie (metody i atrybuty), a nie przez dziedziczenie.
+Jak w Pythonie używać "type hints" i jaka jest ich korzyść?
+"Type hints" są używane do wskazywania oczekiwanych typów argumentów i wartości zwracanych. Korzyścią jest lepsza czytelność kodu i możliwość statycznej analizy kodu.
+Czym jest "descriptor" w Pythonie?
+Descriptor to obiekt, który definiuje, jak są dostępne atrybuty obiektu. Definiuje metody takie jak `__get__`, `__set__` i `__delete__`.
+Czym jest "coroutine" w Pythonie i do czego jest używane?
+Coroutine to specjalny typ funkcji, który może zawiesić swoje wykonanie, aby umożliwić wykonanie innego kodu, a potem może kontynuować od miejsca, w którym został zawieszony. Jest używane w programowaniu asynchronicznym.
+Jakie są różnice między `__new__` a `__init__` w Pythonie?
+`__new__` jest metodą, która tworzy nową instancję obiektu, a `__init__` jest metodą, która inicjalizuje tę instancję.
+Jakie są korzyści i wady stosowania Pythona w programowaniu mikroserwisów?
+Korzyści to prostota i czytelność kodu, bogaty ekosystem bibliotek. Wady to możliwe problemy z wydajnością i zużyciem pamięci w porównaniu z językami kompilowanymi.
+Jakie są różnice między implementacjami CPython, Jython, IronPython i PyPy?
+CPython to standardowa implementacja Pythona w C, Jython pozwala na uruchomienie Pythona na JVM, IronPython jest przeznaczony dla .NET, a PyPy to implementacja korzystająca z JIT (Just-In-Time Compilation), co pozwala na optymalizację czasu wykonywania.
+Czym jest Gevent i jak można go używać do optymalizacji programów Pythona?
+Gevent to biblioteka do współbieżności bazująca na współprogramach ("coroutines"), zdarzeniach i Zielonych Wątkach ("Greenlets"). Pozwala na pisania skalowalnych, wielowątkowych aplikacji, np. serwerów.
+Jak wykorzystać Cythona do zwiększenia wydajności Pythona?
+Cython umożliwia kompilację programów Pythona do C dla zwiększenia wydajności, pozwala także na wywoływanie funkcji C/C++ oraz integrację z kodem w tych językach.
+Jak w Pythonie zaimplementować wzorzec projektowy Singleton?
+Singleton można zaimplementować za pomocą klasy, której konstruktor (__new__) zawsze zwraca tę samą instancję obiektu lub za pomocą modułu, ponieważ moduły są w Pythonie singletons.
+Czym jest i jak używać `__slots__` w Pythonie?
+`__slots__` to atrybut klasy, który definiuje listę nazw atrybutów, które instancja klasy może mieć. Używanie `__slots__` może zwiększyć wydajność i zmniejszyć zużycie pamięci.
+Jakie są strategie optymalizacji pamięci w Pythonie?
+Używanie generatorów, zarządzanie referencjami cyklicznymi, optymalizacja struktur danych, wykorzystywanie bibliotek napisanych w C, np. NumPy, i używanie profilera pamięci są przykładami strategii optymalizacji pamięci.
+Jak używać biblioteki NumPy do operacji na dużych zestawach danych?
+NumPy dostarcza efektywnych struktur danych i operacji dla dużych tablic danych. Pozwala na wektoryzację operacji i jest zoptymalizowany pod kątem wydajności, dzięki czemu operacje są szybsze i zużywają mniej pamięci niż standardowe listy Pythona.
+Czym jest "lazy evaluation" i jak może być zaimplementowany w Pythonie?
+"Lazy evaluation" to strategia ewaluacji, gdzie obliczenia są opóźniane do momentu, kiedy są rzeczywiście potrzebne. W Pythonie może być zaimplementowany za pomocą generatorów i obiektów, które implementują specjalne metody takie jak `__iter__()` i `__next__()`.
+Czym są "decorators" i "decorators with arguments"?
+Dekoratory to funkcje wyższego rzędu, które modyfikują lub uzupełniają funkcje lub metody. Dekoratory z argumentami to dekoratory, które przyjmują parametry, co pozwala na bardziej elastyczną konfigurację.
+Jakie są zastosowania metody `__call__` w klasach Pythona?
+Metoda `__call__` pozwala na traktowanie instancji klasy jako wywoływalne obiekty (funkcje). To jest używane w różnych sytuacjach, na przykład do tworzenia funkcji callback, opakowywania funkcji, i w wielu innych przypadkach, gdzie klasy muszą zachowywać się jak funkcje.
+Co to jest kontekst menedżera (Context Manager) w Pythonie i jak go zaimplementować?
+Kontekst menedżer w Pythonie to obiekt zaprojektowany do użytku w instrukcji with, który ułatwia zarządzanie zasobami, takimi jak pliki lub połączenia sieciowe. Kontekst menedżery zapewniają, że zasoby są poprawnie zwalniane po zakończeniu bloku with. Można je zaimplementować przez zdefiniowanie metod __enter__ i __exit__ w klasie lub przez użycie dekoratora contextlib.contextmanager w funkcji.
+Jak w Pythonie działa system typów i jak można go wykorzystać (Type Hinting)?
+Python jest językiem dynamicznie typowanym, ale od wersji 3.5 wprowadzono system adnotacji typów (type hints), który pozwala programistom sugerować typy zmiennych, argumentów funkcji i wartości zwracanych. Type hints pomagają w poprawie czytelności kodu oraz mogą być wykorzystywane przez narzędzia do statycznej analizy kodu do wykrywania potencjalnych błędów. Przykład: def add_numbers(a: int, b: int) -> int:.
+Co to są dekoratory parametryzowane i jak je tworzyć?
+Dekoratory parametryzowane to dekoratory, które przyjmują argumenty podczas dekorowania funkcji. Są one implementowane jako fabryki dekoratorów - funkcje zwracające dekorator. Użycie dekoratora parametryzowanego pozwala na większą elastyczność i ponowne wykorzystanie logiki dekoratora.
+Co to są metaklasy w Pythonie i jakie mają zastosowania?
+Metaklasy to "klasy klas", które definiują, jak klasy są tworzone. Pozwalają na zaawansowaną modyfikację lub rozszerzenie klas w momencie ich definicji. Metaklasy mogą być wykorzystywane do implementacji wzorców projektowych, takich jak Singleton, lub do automatycznego dodawania nowych metod lub atrybutów do klasy.
+Jakie są zaawansowane zastosowania funkcji lambda?
+Funkcje lambda mogą być używane nie tylko do tworzenia prostych funkcji anonimowych, ale również w połączeniu z funkcjami wyższego rzędu, takimi jak map(), filter() i reduce(), a także w zaawansowanych konstrukcjach programistycznych, takich jak funkcje składające (composing functions) czy dekoratory.
+Jak działają i jak używać generatorów i wyrażeń generatorowych?
+Generatory to funkcje, które pozwalają na tworzenie iteratorów w sposób używający słowa kluczowego yield. Wyrażenia generatorowe to kompaktowa forma generatorów, używająca składni podobnej do list comprehension, ale zwracająca generator zamiast listy. Generatory i wyrażenia generatorowe są szczególnie przydatne przy przetwarzaniu dużych zbiorów danych ze względu na niskie zużycie pamięci.
+Jak w Pythonie działa asynchroniczność (asyncio) i jak z niej korzystać?
+asyncio to biblioteka do programowania asynchronicznego, która pozwala na pisanie kodu wykorzystującego operacje wejścia/wyjścia bez blokowania, korzystając ze słów kluczowych async i await. Umożliwia tworzenie asynchronicznych programów, które są bardziej skalowalne i efektywne pod względem wykorzystania zasobów, szczególnie w aplikacjach sieciowych.
+Jakie są możliwości i ograniczenia GIL (Global Interpreter Lock)?
+GIL to mechanizm synchronizacji, który ogranicza wykonanie kodu bajtowego Pythona do jednego wątku naraz w programie. Ogranicza to możliwości wielowątkowe Pythona na wielordzeniowych procesorach, ale jest konieczne do zarządzania pamięcią i zapewnienia bezpieczeństwa wątków. Alternatywą dla wielowątkowości są procesy (używając modułu multiprocessing) lub programowanie asynchroniczne (asyncio).
+Co to jest duck typing i jak wpływa na polimorfizm w Pythonie?
+Duck typing to koncepcja, według której typ obiektu jest mniej ważny niż metody lub atrybuty, które posiada. W Pythonie pozwala to na implementację polimorfizmu bez konieczności używania dziedziczenia czy interfejsów, ponieważ ważne jest, aby obiekt zachowywał się w określony sposób, a nie jaki ma dokładnie typ.
+Czym jest `functools.partial`?
+`functools.partial` pozwala na stworzenie nowej funkcji z już istniejącej, z predefiniowanymi niektórymi argumentami.
+Jak działa `deque` z modułu `collections`?
+`deque` (double-ended queue) to zoptymalizowana lista, która umożliwia szybkie dodawanie i usuwanie elementów z obu końców.
+Co to jest `namedtuple`?
+`namedtuple` to funkcja, która tworzy niezmienne obiekty krotek, ale z nazwanymi polami, co poprawia czytelność kodu.
+Jak działa `Counter` z modułu `collections`?
+`counter` to słownik do zliczania hashowalnych obiektów, gdzie klucze są elementami, a wartościami liczba ich wystąpień.
+Co to jest `defaultdict`?
+`defaultdict` to podklasa słownika, która zwraca domyślną wartość dla brakujących kluczy.
+Jakie są różnice między `@staticmethod` a `@classmethod`?
+`@staticmethod` jest metodą, która nie otrzymuje ani instancji, ani klasy jako pierwszego argumentu. `@classmethod` otrzymuje klasę jako pierwszy argument.
+Jakie są różnice między `StringIO` a `BytesIO` w module `io`?
+`stringio` operuje na ciągach znaków (str), a `bytesio` operuje na bajtach (bytes).
+Co to jest `WeakRef` w Pythonie?
+`weakref` to obiekt, który pozwala na odwoływanie się do obiektu bez zwiększania jego licznika referencji, co może zapobiec utrzymaniu go w pamięci, jeśli wszystkie inne odniesienia zostaną usunięte.
+Jak działa `enum` w Pythonie?
+`enum` to klasa pozwalająca na definiowanie zestawu nazwanych wartości, które są unikalne i niemutowalne.
+Jak można używać `contextlib`?
+`contextlib` dostarcza narzędzia do uproszczonego tworzenia menedżerów kontekstu, np. przez dekoratory lub funkcję `closing()`.
+Co to jest `mmap`?
+`mmap` to moduł, który pozwala na mapowanie plików na pamięć, co umożliwia ich manipulację jakby były zwykłymi tablicami.
+Co to jest `abc` i do czego służy?
+`abc` to moduł, który pozwala na definiowanie klas abstrakcyjnych, z abstrakcyjnymi metodami, które muszą być implementowane w klasach pochodnych.
+Jakie są różnice między `==` a `is` w Pythonie?
+`==` porównuje wartości obiektów, a `is` sprawdza, czy dwa odniesienia wskazują na ten sam obiekt w pamięci.
+Co to jest `pandas` i do czego służy?
+`pandas` to biblioteka do analizy danych, oferująca struktury danych takie jak `dataframe` i `series`, umożliwiająca efektywne zarządzanie i analizę dużych zbiorów danych.
+Co to jest `numpy`?
+`numpy` to biblioteka zapewniająca wsparcie dla dużych, wielowymiarowych tablic i macierzy, oraz zestaw funkcji matematycznych do ich przetwarzania.
+Jak działa `@property` w Pythonie?
+`@property` przekształca metodę klasy w atrybut tylko do odczytu.
+Co to jest `iter()` i `next()`?
+`iter()` konwertuje obiekt iterowalny na iterator, a `next()` zwraca kolejny element z iteratora.
+Jakie są różnice między `deepcopy` a `shallowcopy`?
+`shallowcopy` kopiuje tylko powierzchnię obiektu, podczas gdy `deepcopy` kopiuje cały obiekt, w tym obiekty wewnętrzne.
+Jakie są różnice między `os.path` a `pathlib`?
+`os.path` to moduł zapewniający funkcje do operacji na ścieżkach plików, podczas gdy `pathlib` oferuje bardziej obiektowe podejście do manipulacji ścieżkami.
+Jakie są różnice między `global` a `nonlocal`?
+`global` deklaruje, że zmienna jest globalna, podczas gdy `nonlocal` pozwala na modyfikowanie zmiennych z zakresu zewnętrznego, ale nie globalnego.
+Jak działa `__slots__`?
+`__slots__` ogranicza dynamiczne tworzenie atrybutów w instancji, co pozwala na oszczędność pamięci.
+Co to jest `__call__`?
+`__call__` pozwala na wywołanie instancji klasy jak funkcji.
+Co to jest `deque`?
+`deque` to zoptymalizowana struktura danych z modułu `collections`, która pozwala na szybkie operacje na obu końcach kolejki.
+Jakie są różnice między `==` a `is` w Pythonie?
+`==` porównuje wartości obiektów, a `is` sprawdza, czy dwa odniesienia wskazują na ten sam obiekt.
+Co to jest `enum`?
+`enum` to moduł, który pozwala na definiowanie zestawu symbolicznych nazw z przypisanymi im wartościami.
+Jak działa `contextlib.contextmanager`?
+`contextlib.contextmanager` to dekorator, który umożliwia tworzenie menedżerów kontekstu za pomocą funkcji generatora.
+Co to jest `sys.path`?
+`sys.path` to lista ścieżek, które python przeszukuje w poszukiwaniu modułów do importowania.

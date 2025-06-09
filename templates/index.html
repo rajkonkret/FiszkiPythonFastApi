@@ -1,0 +1,57 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Fiszki Python</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            text-align: center;
+        }
+        .card {
+            background: #f9f9f9;
+            padding: 30px;
+            margin: 20px auto;
+            width: 400px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+        }
+        .answer {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h2>📚 Fiszka Pythona</h2>
+        <p><strong>Pytanie:</strong></p>
+        <p>{{ fiszka.question }}</p>
+
+        <div class="answer" id="answer">
+            <p><strong>Odpowiedź:</strong></p>
+            <p>{{ fiszka.answer }}</p>
+        </div>
+
+        <button onclick="showAnswer()">Pokaż odpowiedź</button>
+        <form method="get" action="/">
+            <button type="submit">Następne pytanie</button>
+        </form>
+    </div>
+
+    <script>
+        function showAnswer() {
+            document.getElementById('answer').style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>
