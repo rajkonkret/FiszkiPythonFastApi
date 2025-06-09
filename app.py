@@ -9,6 +9,7 @@ app = FastAPI()
 # Konfiguracja ścieżki do szablonów HTML
 templates = Jinja2Templates(directory="templates")
 
+
 # Funkcja odczytująca fiszki z pliku tekstowego
 def load_fiszki(filename):
     fiszki = []
@@ -21,7 +22,9 @@ def load_fiszki(filename):
             fiszki.append({"question": question, "answer": answer})
     return fiszki
 
+
 fiszki = load_fiszki("pytania.txt")
+
 
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request):
@@ -32,3 +35,4 @@ async def index(request: Request):
 # uvicorn app:app --host 0.0.0.0 --port 8000
 # https://fiszkipythonfastapi.onrender.com/?
 # http://frog02.mikr.us:42324/?
+# https://frog02-42324.wykr.es
