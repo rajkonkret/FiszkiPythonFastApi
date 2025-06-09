@@ -30,3 +30,4 @@ async def index(request: Request):
 # uvicorn app:app --reload
 # pip install fastapi uvicorn jinja2
 # uvicorn app:app --host 0.0.0.0 --port 8000
+# https://fiszkipythonfastapi.onrender.com/?
