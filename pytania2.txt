@@ -1,0 +1,220 @@
+Jak sprawdzić długość listy w Pythonie?
+len(lista)
+Jak sprawdzić typ zmiennej w Pythonie?
+type(zmienna)
+Jak zamienić string na liczbę całkowitą?
+int(napis)
+Jak zamienić liczbę na napis?
+str(liczba)
+Jak dodać element na koniec listy?
+lista.append(element)
+Jak sprawdzić, czy element jest w liście?
+element in lista
+Jak usunąć element z listy?
+lista.remove(element)
+Jak pobrać ostatni element listy?
+lista[-1]
+Jak połączyć dwa napisy w jeden?
+napis1 + napis2
+Jak powtórzyć napis 3 razy?
+napis * 3
+Jak utworzyć pusty słownik?
+slownik = {}
+Jak dodać parę klucz-wartość do słownika?
+slownik[klucz] = wartosc
+Jak sprawdzić, czy klucz istnieje w słowniku?
+klucz in slownik
+Jak pobrać wartość ze słownika po kluczu?
+slownik[klucz]
+Jak sprawdzić ilość kluczy w słowniku?
+len(slownik)
+Jak pobrać klucze ze słownika?
+slownik.keys()
+Jak pobrać wartości ze słownika?
+slownik.values()
+Jak połączyć dwie listy?
+lista1 + lista2
+Jak posortować listę rosnąco?
+lista.sort()
+Jak posortować listę malejąco?
+lista.sort(reverse=True)
+Jak odwrócić listę?
+lista.reverse()
+Jak usunąć ostatni element listy?
+lista.pop()
+Jak wyświetlić elementy listy jeden pod drugim?
+for x in lista: print(x)
+Jak utworzyć pustą listę?
+lista = []
+Jak sprawdzić indeks elementu w liście?
+lista.index(element)
+Jak policzyć wystąpienia elementu w liście?
+lista.count(element)
+Jak utworzyć krotkę?
+krotka = (1, 2, 3)
+Czy krotka jest mutowalna?
+Nie, krotka jest niemutowalna.
+Jak połączyć wiele linii tekstu w jedną?
+"".join(lista)
+Jak sprawdzić długość napisu?
+len(napis)
+Jak podzielić napis na listę słów?
+napis.split()
+Jak zamienić znak w napisie?
+napis.replace('a', 'b')
+Jak zmienić napis na małe litery?
+napis.lower()
+Jak zmienić napis na wielkie litery?
+napis.upper()
+Jak napisać komentarz jednoliniowy?
+#
+Jak napisać komentarz wieloliniowy?
+""" tekst """
+Jak zakończyć działanie programu?
+exit()
+Jak pobrać dane od użytkownika?
+input()
+Jak zaimportować moduł math?
+import math
+Jak podnieść liczbę do potęgi?
+pow(a, b) lub a ** b
+Jak obliczyć pierwiastek kwadratowy?
+math.sqrt(x)
+Jak zaokrąglić liczbę do 2 miejsc po przecinku?
+round(liczba, 2)
+Jak uzyskać losową liczbę z zakresu 1-10?
+import random; random.randint(1, 10)
+Jak wyświetlić tekst bez przechodzenia do nowej linii?
+print('tekst', end='')
+Jak użyć instrukcji warunkowej?
+if warunek:
+Jak użyć instrukcji else?
+else:
+Jak użyć elif?
+elif:
+Jak utworzyć funkcję w Pythonie?
+def nazwa_funkcji():
+Jak przekazać argument do funkcji?
+def f(x): return x
+Jak ustawić domyślny argument funkcji?
+def f(x=10):
+Jak zwrócić wartość z funkcji?
+return x
+Jak utworzyć klasę w Pythonie?
+class Nazwa:
+Jak utworzyć obiekt klasy?
+obiekt = Nazwa()
+Jak utworzyć metodę klasy?
+def metoda(self):
+Jak użyć dziedziczenia w klasach?
+class B(A):
+Jak sprawdzić typ obiektu?
+isinstance(obj, typ)
+Jak obsłużyć wyjątek?
+try: ... except:
+Jak rzucić wyjątek?
+raise ValueError('Błąd')
+Jak otworzyć plik do odczytu?
+open('plik.txt')
+Jak otworzyć plik do zapisu?
+open('plik.txt', 'w')
+Jak przeczytać cały plik jako napis?
+plik.read()
+Jak przeczytać plik linia po linii?
+for linia in plik:
+Jak zapisać tekst do pliku?
+plik.write('tekst')
+Jak zamknąć plik?
+plik.close()
+Jak użyć with do obsługi pliku?
+with open('plik.txt') as plik:
+Jak pobrać aktualny katalog roboczy?
+import os; os.getcwd()
+Jak sprawdzić czy plik istnieje?
+os.path.exists('plik.txt')
+Jak usunąć plik?
+os.remove('plik.txt')
+Jak zmienić katalog roboczy?
+os.chdir('ścieżka')
+Jak wyświetlić zawartość katalogu?
+os.listdir('.')
+Jak utworzyć nowy katalog?
+os.mkdir('nowy_folder')
+Jak pobrać aktualny czas?
+import datetime; datetime.datetime.now()
+Jak utworzyć datę z napisu?
+datetime.datetime.strptime('2023-01-01', '%Y-%m-%d')
+Jak użyć pętli while?
+while warunek:
+Jak wyjść z pętli while?
+break
+Jak pominąć iterację w pętli while?
+continue
+Jak przekonwertować listę na set?
+set(lista)
+Jak usunąć duplikaty z listy?
+list(set(lista))
+Jak połączyć listę liczb w jeden napis?
+''.join(map(str, lista))
+Jak sprawdzić czy string zaczyna się od prefiksu?
+napis.startswith('abc')
+Jak sprawdzić czy string kończy się na sufiks?
+napis.endswith('xyz')
+Jak wyświetlić zakres liczb od 0 do 9?
+for i in range(10):
+Jak uzyskać długość krotki?
+len(krotka)
+Jak utworzyć generator liczb?
+(i for i in range(10))
+Jak uzyskać index i wartość w pętli?
+for i, v in enumerate(lista):
+Jak połączyć dwie listy element po elemencie?
+zip(lista1, lista2)
+Jak zdefiniować stałą w Pythonie?
+Stałej nie można wymusić, to tylko umowa (np. NAZWA = 1)
+Jak zwrócić wiele wartości z funkcji?
+return x, y
+Jak rozpakować krotkę do zmiennych?
+a, b = (1, 2)
+Jak dodać wartość do setu?
+set.add(element)
+Jak usunąć element z setu?
+set.remove(element)
+Jak sprawdzić czy set zawiera element?
+element in set
+Jak wypisać wszystkie elementy słownika?
+for k, v in slownik.items():
+Jak przeszukać listę list comprehensions?
+[x for x in lista if x > 0]
+Jak pobrać minimalną wartość z listy?
+min(lista)
+Jak pobrać maksymalną wartość z listy?
+max(lista)
+Jak sumować elementy listy?
+sum(lista)
+Jak sprawdzić wersję Pythona?
+import sys; print(sys.version)
+Jak wykonać kod warunkowo od wersji Pythona?
+if sys.version_info >= (3, 7):
+Jak użyć f-stringów?
+f"Wartość: {zmienna}"
+Jak sformatować liczbę float do 2 miejsc?
+f"{liczba:.2f}"
+Jak zaokrąglić liczbę w dół?
+import math; math.floor(liczba)
+Jak zaokrąglić liczbę w górę?
+import math; math.ceil(liczba)
+Jak sprawdzić czy liczba jest parzysta?
+x % 2 == 0
+Jak sprawdzić czy napis jest liczbą?
+napis.isdigit()
+Jak zamienić listę znaków na napis?
+"".join(lista)
+Jak wczytać dane w formacie JSON?
+import json; json.loads(napis)
+Jak zapisać dane do pliku JSON?
+import json; json.dump(dane, plik)
+Jak przekonwertować słownik na napis JSON?
+import json; json.dumps(slownik)
+Jak sparsować napisy na liczby float?
+float(napis)
