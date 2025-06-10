@@ -1,9 +1,12 @@
 # app.py
+import asyncio
+
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 import random
-
+from utils.odczyt_rekordu_z_bazy import get_random_fiszka
+# pip install python-dotenv
 app = FastAPI()
 
 # Konfiguracja ścieżki do szablonów HTML
@@ -28,7 +31,8 @@ fiszki = load_fiszki("pytania.txt")
 
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request):
-    fiszka = random.choice(fiszki)
+    # fiszka = random.choice(fiszki)
+    fiszka = await get_random_fiszka()
     return templates.TemplateResponse("index.html", {"request": request, "fiszka": fiszka})
 # uvicorn app:app --reload
 # pip install fastapi uvicorn jinja2
