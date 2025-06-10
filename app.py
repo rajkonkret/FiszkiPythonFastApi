@@ -6,6 +6,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 import random
 from utils.odczyt_rekordu_z_bazy import get_random_fiszka
+
 # pip install python-dotenv
 app = FastAPI()
 
@@ -40,3 +41,4 @@ async def index(request: Request):
 # https://fiszkipythonfastapi.onrender.com/?
 # http://frog02.mikr.us:42324/?
 # https://frog02-42324.wykr.es
+# sudo uvicorn app:app --host :: --port 80
