@@ -29,11 +29,21 @@
             margin-bottom: 1rem;
             color: #333;
         }
-        p {
+        .answer {
+            display: none;
             font-size: 1.2rem;
             color: #666;
+            margin-top: 1.2rem;
         }
-        .refresh-button {
+        .show {
+            display: block;
+            animation: fadeIn 0.3s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .refresh-button, .show-answer-btn {
             margin-top: 2rem;
             padding: 0.75rem 1.5rem;
             font-size: 1rem;
@@ -43,11 +53,19 @@
             border-radius: 8px;
             cursor: pointer;
             transition: background-color 0.3s;
+            display: inline-block;
         }
-        .refresh-button:hover {
+        .refresh-button:hover, .show-answer-btn:hover {
             background-color: #0056b3;
         }
-
+        .show-answer-btn {
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+            background-color: #00b894;
+        }
+        .show-answer-btn:hover {
+            background-color: #00997a;
+        }
         @media (max-width: 600px) {
             .card {
                 padding: 1.5rem;
@@ -55,16 +73,16 @@
             h1 {
                 font-size: 1.5rem;
             }
-            p {
-                font-size: 1rem;
-            }
         }
     </style>
 </head>
 <body>
     <div class="card">
         <h1>{{ fiszka.question }}</h1>
-        <p>{{ fiszka.answer }}</p>
+        <button class="show-answer-btn" onclick="document.getElementById('answer').classList.add('show'); this.style.display='none'">
+            Pokaż odpowiedź
+        </button>
+        <p id="answer" class="answer">{{ fiszka.answer }}</p>
         <form method="get">
             <button class="refresh-button" type="submit">Pokaż inną fiszkę</button>
         </form>

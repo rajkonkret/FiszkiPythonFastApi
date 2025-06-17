@@ -18,7 +18,7 @@ conn = mysql.connector.connect(**config)
 cursor = conn.cursor()
 
 # Otwórz plik z pytaniami i odpowiedziami
-with open('../pytania.txt', encoding='utf-8') as f:
+with open('../pytania2.txt', encoding='utf-8') as f:
     lines = [line.strip() for line in f if line.strip()]  # pomija puste linie
 
 # Sprawdź, czy liczba wierszy jest parzysta
