@@ -42,3 +42,4 @@ async def index(request: Request):
 # http://frog02.mikr.us:42324/?
 # https://frog02-42324.wykr.es
 # sudo uvicorn app:app --host :: --port 80
+# nc -vz serwer2348480.home.pl 3380
